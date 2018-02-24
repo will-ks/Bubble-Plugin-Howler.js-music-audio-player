@@ -1,0 +1,4 @@
+{
+    "caption": "Stop",
+    "doc": "Stop sound file (Play action will restart at beginning of file)"
+}

@@ -1,0 +1,70 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 45,
+        "width": 200
+    },
+    "display": "Howler",
+    "edit_mode_image": "//s3.amazonaws.com/appforest_uf/f1511101301021x712777602020651100/howler.png",
+    "events": {
+        "AAV": {
+            "caption": "has finished playing",
+            "doc": "Triggers once the audio file playback ends",
+            "name": "on_end"
+        }
+    },
+    "fields": {
+        "AAH": {
+            "caption": "Sound File",
+            "doc": "Your sound file. Supports all browser-ready files: MP3, MPEG, OPUS, OGG, OGA, WAV, AAC, CAF, M4A, MP4, WEBA, WEBM, DOLBY, FLAC.",
+            "editor": "DynamicValue",
+            "name": "sound_file",
+            "rank": 0,
+            "value": "file"
+        },
+        "AAJ": {
+            "caption": "Preload",
+            "default_val": true,
+            "doc": "Check to automatically begin downloading the sound file when the page loads",
+            "editor": "Checkbox",
+            "name": "preload_bool",
+            "rank": 1
+        },
+        "AAK": {
+            "caption": "Loop",
+            "default_val": false,
+            "doc": "Loop the sound file when it finishes playing",
+            "editor": "Checkbox",
+            "name": "loop_bool",
+            "rank": 2
+        },
+        "AAL": {
+            "caption": "Force HTML5 Audio",
+            "default_val": true,
+            "doc": "Check to force HTML5 Audio. This should be used for large audio files so that you don't have to wait for the full file to be downloaded and decoded before playing. Disable it for greater browser compatibility.",
+            "editor": "Checkbox",
+            "name": "html5_bool",
+            "rank": 3
+        },
+        "AAM": {
+            "caption": "Playback rate",
+            "default_val": 1,
+            "doc": "The rate of playback. 0.5 to 4.0, with 1.0 being normal speed.",
+            "editor": "StaticNumber",
+            "name": "playback_rate",
+            "rank": 4,
+            "value": "number"
+        },
+        "AAN": {
+            "caption": "Volume",
+            "default_val": 1,
+            "doc": "The volume of the track, from 0.0 to 1.0.",
+            "editor": "StaticNumber",
+            "name": "volume",
+            "rank": 5,
+            "value": "number"
+        }
+    },
+    "icon": "ion-ios-musical-notes"
+}
