@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "visual elements",
+        "1": "media"
+    },
+    "description": "Note: This plugin is now deprecated, and will not be updated. It has been rewritten entirely as Howler.js Pro plugin, which has extra features and bug fixes.\n\nPlay sound and music files and control them in your workflow. You can preload files to reduce loading times, set the playback rate and volume, and play, pause, stop and mute them in workflows.\n\nBased on howler.js - an audio library for the modern web. Defaults to Web Audio API and falls back to HTML5 Audio. ",
+    "image": "//s3.amazonaws.com/appforest_uf/f1511101808452x248499521985650050/howlericon.png",
+    "instructions": "Add the element to your page and set the audio file to play in the plugin properties. You can now play, pause, etc the audio from within your workflows.",
+    "license": "open_source",
+    "link": "https://plugindemos.bubbleapps.io/version-test/howlerjs",
+    "name": "Howler.js music / audio player (deprecated)",
+    "plugin_instructions": "Add the element to your page and set the audio file to play in the plugin properties. You can now play, pause, etc the audio from within your workflows."
+}

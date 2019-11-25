@@ -1,4 +1,6 @@
 function(instance, properties, context) {
+  
+ 
 
  instance.data.sound = new Howl({
      src: [properties.sound_file],
